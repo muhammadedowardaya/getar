@@ -6,7 +6,7 @@
 // ctx.lineTo(5, 80);
 // ctx.stroke();
 function buatGetaran(pola) {
-	var getaran = window.navigator.vibrate(pola);
+	var getaran = this.navigator.vibrate(pola);
 
 	// tampilkan hasilnya ke console
 	// kalau true berarti browser mendukung untuk membuat getaran
